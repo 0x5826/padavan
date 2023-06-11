@@ -217,6 +217,9 @@ load_ipset_modules(void)
 	module_smart_load("ip_set_hash_ip", NULL);
 	module_smart_load("ip_set_hash_mac", NULL);
 	module_smart_load("ip_set_hash_net", NULL);
+	module_smart_load("ip_set_bitmap_ip", NULL);
+        module_smart_load("ip_set_bitmap_port", NULL);
+        module_smart_load("ip_set_list_set", NULL);
 }
 #endif
 
